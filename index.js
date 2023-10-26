@@ -16,7 +16,7 @@ request.addEventListener("load", function () {
     let popu;
     if (nuData.population >= 1000000000) {
       popu = (nuData.population / 1000000000).toFixed(1) + " B";
-    } else if(nuData.population <1000000000 and nuData.population >1000000) {
+    } else if(nuData.population <1000000000 && nuData.population >1000000) {
       popu = (nuData.population / 1000000).toFixed(1) + " M";
     }else {
       popu = (nuData.population / 1000).toFixed(1) + " K"
